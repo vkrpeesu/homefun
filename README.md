@@ -1,6 +1,6 @@
 # Homefun Python Skeleton
 
-Python aid for completing the Gamescrafters Homefun series. Knowingly incomplete functions are marked with `# TODO` comments, but know that completing these functions will not be enough for the later homefuns.
+Python aid for completing the Gamescrafters Homefun series. Knowingly incomplete functions are marked `# TODO`, but know that completing these functions will not be enough for the later homefuns.
 
 ## Requirements
 
