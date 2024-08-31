@@ -1,11 +1,12 @@
 # Homefun Python Skeleton
 
-Python aid for completing the Gamescrafters Homefun series. Knowingly incomplete functions are marked `# TODO`, but know that completing these functions will not be enough for the later homefuns.
+Python aid for completing the Gamescrafters Homefun series. Knowingly incomplete functions are marked `# TODO`, but know that completing these functions will not be enough for the later homefuns. You are encouraged to change the code as you see fit.
 
 ## Requirements
 
 You will need:
-* Python 3.5 or higher
+* Python 3.8+
+* The `make` program
 * A unix-like environment (Windows users, see Git Bash or WSL)
 
 ## Usage 
