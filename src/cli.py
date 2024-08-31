@@ -40,9 +40,13 @@ class Cli:
         if len(sys.argv) < 2:
             Cli.error(HELP_STRING)
 
-        parsed_args = Args(
-            game=GameImplementation[sys.argv[1]],
-            input=sys.argv[2:]
-        )
+        try:
+            parsed_args = Args(
+                game=GameImplementation[sys.argv[1]],
+                input=sys.argv[2:]
+            )
+
+        except KeyError:
+            Cli.error(f"Could not find game with name '{sys.argv[1]}'")
 
         return parsed_args
