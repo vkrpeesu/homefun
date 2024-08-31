@@ -20,4 +20,8 @@ make run ARGS="zero_by 25 1 3 4"
 
 ## Testing
 
-There are no tests included, but you are encouraged to write your own in the provided `src/tests.py` file. As a suggestion, a useful test is comparing the solver output to the expected output. You can run them with `make test`.
+There are no tests included, but you are encouraged to write your own in the provided `src/tests.py` file. As a suggestion, a useful test is comparing the solver output to the expected output. You can run them as follows:
+
+```
+make test
+```
