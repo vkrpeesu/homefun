@@ -23,7 +23,7 @@ class Game(ABC):
         """
         Returns an encoding of a game's starting position.
         """
-        ...
+        pass
 
     @abstractmethod
     def get_moves(position: int) -> list[int]:
@@ -31,7 +31,7 @@ class Game(ABC):
         Given a position encoding, returns a list of encodings corresponding
         to moves that can be done from the provided position.
         """
-        ...
+        pass
 
     @abstractmethod
     def do_move(position: int, move: int) -> int:
@@ -40,7 +40,7 @@ class Game(ABC):
         the position that would result if the provided move was done from the
         provided position.
         """
-        ...
+        pass
 
     @abstractmethod
     def evaluate(position: int) -> Optional[Value]:
@@ -48,4 +48,4 @@ class Game(ABC):
         Returns the value of the provided position if it is terminal, and None
         in all other cases.
         """
-        ...
+        pass

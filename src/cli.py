@@ -1,4 +1,5 @@
 from dataclasses import dataclass
+from solver import SolutionRecord
 from enum import Enum
 import sys
 
@@ -31,6 +32,10 @@ class Cli:
     """
 
     @staticmethod
+    def success() -> None:
+        sys.exit(0)
+
+    @staticmethod
     def error(msg: str) -> None:
         print(msg)
         sys.exit(1)
@@ -50,3 +55,20 @@ class Cli:
             Cli.error(f"Could not find game with name '{sys.argv[1]}'")
 
         return parsed_args
+
+    @staticmethod
+    def format(solution: dict[int, SolutionRecord]) -> None:
+        Cli.__format_individual(solution)
+        Cli.__format_aggregate(solution)
+
+    @staticmethod
+    def __format_individual(solution: dict[int, SolutionRecord]) -> None:
+
+        # TODO: Homefun 1
+        ...
+
+    @staticmethod
+    def __format_aggregate(solution: dict[int, SolutionRecord]) -> None:
+
+        # TODO: Homefun 2, Homefun 3
+        ...
