@@ -31,7 +31,7 @@ make test
 
 For those comfortable in their programming ability, this series is a great opportunity to learn a new programming language. If you wish to not use Python, you are free to complete the assignments however you would like.
 
-To do this, you can simply make a commit deleting everything in the repository that is not usefulto your code. Just ensure that the following holds when you are finished:
+To do this, you can simply make a commit deleting everything in the repository that is not useful to your code. Just ensure that the following holds when you are finished:
 
 * Running `make run ARGS="..."` works from the project directory
 * The output of your program is identical to the required output
