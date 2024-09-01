@@ -4,25 +4,25 @@ from typing import Optional
 
 class ZeroBy(Game):
 
-    def __init__(self, args: list[int]):
+    def __init__(self, args: list[str]):
         self.args = args
 
-    def start() -> int:
+    def start(self) -> int:
 
         # TODO: Homefun 1
         ...
 
-    def get_moves(position: int) -> list[int]:
+    def get_moves(self, position: int) -> list[int]:
 
         # TODO: Homefun 1
         ...
 
-    def do_move(position: int, move: int) -> int:
+    def do_move(self, position: int, move: int) -> int:
 
         # TODO: Homefun 1
         ...
 
-    def evaluate(position: int) -> Optional[Value]:
+    def terminal_value(self, position: int) -> Optional[Value]:
 
         # TODO: Homefun 1
         ...
