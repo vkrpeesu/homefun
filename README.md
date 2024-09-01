@@ -1,4 +1,4 @@
-# Homefun Skeleton
+# Homefun Template 
 
 Python aid for completing the Gamescrafters Homefun series. Incomplete functions are marked `# TODO`, but just completing these functions will not be enough for the later Homefuns. You are encouraged to change any module as you see fit.
 
