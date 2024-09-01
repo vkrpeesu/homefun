@@ -40,4 +40,4 @@ To do this, you may have to add a compilation step to `make run`.
 
 ## Automatic Checking
 
-Credit for Homefuns is completion- and effort-based. When you create new commits, a suite of tests will automatically run. There is a single Github Classroom assignment for the entire Homefun series; as you complete more Homefuns, you will pass more tests.
+Credit for Homefuns is completion- and effort-based. When you create new commits, a suite of tests will automatically run. There is a single Github Classroom assignment for the entire Homefun series, so you will build on this repository for all Homefuns; as you complete more of them, you will pass more automatic checks.
