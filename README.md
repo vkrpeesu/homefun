@@ -1,6 +1,6 @@
 # Homefun Skeleton
 
-Python aid for completing the Gamescrafters Homefun series. Knowingly incomplete functions are marked `# TODO`, but know that completing these functions will not be enough for the later homefuns. You are encouraged to change the code as you see fit.
+Python aid for completing the Gamescrafters Homefun series. Incomplete functions are marked `# TODO`, but just completing these functions will not be enough for the later Homefuns. You are encouraged to change any module as you see fit.
 
 ## Requirements
 
@@ -17,7 +17,7 @@ The program is a barebones CLI application that lets you specify which game you 
 make run ARGS="zero_by 25 1 3 4"
 ```
 
-...should result in a solution to 25-to-0-by-1-3-or-4; the `zero_by` string let the program know which game we wanted to solve, and the arguments `25 1 3 4` allowed us to specify arguments for the game's parameters. This is part of what you will implement.
+...should result in a solution to 25-to-0-by-1-3-or-4; the string `zero_by` told the program which game to solve, and `25 1 3 4` allowed us to specify arguments for the game's parameters. 
 
 ## Testing
 
@@ -37,3 +37,7 @@ To do this, you can simply make a commit deleting everything in the repository t
 * The output of your program is identical to the required output
 
 To do this, you may have to add a compilation step to `make run`.
+
+## Automatic Checking
+
+Credit for Homefuns is completion- and effort-based. When you create new commits, a suite of tests will automatically run. There is a single Github Classroom assignment for the entire Homefun series; as you complete more Homefuns, you will pass more tests.
