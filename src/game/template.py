@@ -18,10 +18,10 @@ class Value(Enum):
     the MEDIAL enum variant.
     """
 
-    WIN = 1
-    TIE = 2
-    LOSE = 3
-    MEDIAL = 4
+    WIN = "WIN"
+    TIE = "TIE"
+    LOSE = "LOSE"
+    MEDIAL = "MEDIAL"
 
 
 class Game(ABC):

@@ -22,7 +22,7 @@ class ZeroBy(Game):
         # TODO: Homefun 1
         ...
 
-    def terminal_value(self, position: int) -> Optional[Value]:
+    def terminal_value(self, position: int) -> Value:
 
         # TODO: Homefun 1
         ...
