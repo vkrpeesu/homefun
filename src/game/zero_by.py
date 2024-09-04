@@ -1,5 +1,4 @@
 from game.template import Game, Value
-from typing import Optional
 
 
 class ZeroBy(Game):
