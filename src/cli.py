@@ -12,7 +12,8 @@ class GameImplementation(Enum):
     The names of all available game implementations.
     """
 
-    zero_by = 1
+    TIC_TAC_TOE = 1
+    ZERO_GAME = 2
 
 
 @dataclass
@@ -69,6 +70,9 @@ class Cli:
 
     @staticmethod
     def __format_aggregate(solution: dict[int, SolutionRecord]) -> None:
-
-        # TODO: Homefun 2, Homefun 3
+        win_counter = sum(1 for record in solution.values() if record.value == Value.WIN)
+        tie_counter = sum(1 for record in solution.values() if record.value == Value.TIE)
+        lose = sum(1 for record in solution.values() if record.value == Value.LOSE)
+        
+        
         ...
